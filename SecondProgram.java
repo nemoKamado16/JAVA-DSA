@@ -1,5 +1,5 @@
 
-
+import java.util.*;
 
 public class SecondProgram {
     public static void main(String[] args) {
@@ -8,8 +8,8 @@ public class SecondProgram {
         // System.out.println(a);
         // System.out.println(b);
 
-        // Scanner sc = new Scanner(System.in);
-        // System.out.println(sc instanceof Scanner);
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc instanceof Scanner);
 
         // System.out.println("What is your name?");
         // String FirstName = sc.nextLine();
@@ -30,14 +30,14 @@ public class SecondProgram {
         // int X2 = (27+40) - X1 * 5/2+9%100;
         // System.out.println(X2);
 
-        int a = 20;
+        // int a = 20;
 
-        int ans = a++ + ++a - --a;
-        System.out.println(a++);
-        System.out.println(++a);
-        System.out.println(--a);
-        System.out.println(a--);
-        System.out.println(ans);
+        // int ans = a++ + ++a - --a;
+        // System.out.println(a++);
+        // System.out.println(++a);
+        // System.out.println(--a);
+        // System.out.println(a--);
+        // System.out.println(ans);
 
         // System.out.println((7>2 && 2!=2) ? "True" : "False");
 
